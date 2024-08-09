@@ -84,7 +84,7 @@ ul.links {
   padding: 0;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 ul.links a {
@@ -96,7 +96,6 @@ ul.links a {
 
 #hero {
   height: 100vh;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
