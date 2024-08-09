@@ -60,6 +60,7 @@ body {
   flex-direction: column;
   color: var(--main-text);
   background-color: var(--background);
+  font-family: Chivo, sans-serif;
 }
 
 /* HEADER */
@@ -74,7 +75,7 @@ header {
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -89,4 +90,49 @@ ul.links {
 ul.links a {
   text-decoration: none;
   color: var(--secondary-text);
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left {
+  width: 40%;
+  height: 40%;
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.left .hero-text {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+}
+
+#hero .hero-text {
+  font-size: 48px;
+}
+
+button.sign-up {
+  padding: 0.5rem 3rem;
+  background-color: var(--blue);
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--main-text);
+}
+
+.right {
+  width: 40%;
+  height: 40%;
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxqZGpwMmJoenhlOXVhbWNhNGhtZ2pnMDNsY3FnY3B5ZDlyaHowayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Wf9dyOrB0nGJn5FIYf/giphy.webp");
+  background-size: cover;
+  background-position: center;
+  background-color: var(--blue);
+  border-radius: 0.5rem;
 }
