@@ -210,3 +210,38 @@ button.sign-up {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
+
+/* CALL TO ACTION */
+
+#call-to-action {
+  background-color: var(--main-text);
+  color: var(--background);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: var(--blue);
+  color: var(--main-text);
+  padding: 2rem;
+  width: 60%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+button.cta {
+  background-color: transparent;
+  border: 0.25rem solid var(--main-text);
+  padding: 0.25rem 3rem;
+  border-radius: 0.5rem;
+  color: var(--main-text);
+}
+
+.info .modal-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
